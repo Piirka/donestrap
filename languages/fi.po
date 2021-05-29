@@ -1,0 +1,341 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2021-05-23 17:25+0300\n"
+"PO-Revision-Date: 2021-05-23 17:28+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fi_FI\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;esc_html__\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: vendor\n"
+"X-Poedit-SearchPathExcluded-1: node_modules\n"
+
+#: 404.php:69
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: author.php:38
+msgid "About:"
+msgstr ""
+
+#: author.php:62
+msgid "Posts by"
+msgstr "Kirjoittaja"
+
+#: author.php:75
+msgid "Permanent Link:"
+msgstr "Linkki"
+
+#: comments.php:68 comments.php:103
+msgid "&larr; Older Comments"
+msgstr "&larr; Vanhemmat kommentit"
+
+#: comments.php:74 comments.php:109
+msgid "Newer Comments &rarr;"
+msgstr "Uusimmat kommentit &rarr;"
+
+#: inc/class-wp-bootstrap-navwalker.php:376
+msgid "Add a menu"
+msgstr ""
+
+#: inc/custom-header.php:54
+msgid "Default Header Image"
+msgstr "Oletus Header kuva"
+
+#: inc/customizer.php:42
+msgid "Theme Layout Settings"
+msgstr "Teeman ulkoasu asetukset"
+
+#: inc/customizer.php:44
+msgid "Container width and sidebar defaults"
+msgstr "Sivuston leveys ja sivupalkin oletukset"
+
+#: inc/customizer.php:84
+msgid "Container Width"
+msgstr "Sivuston leveys"
+
+#: inc/customizer.php:85
+msgid "Choose between Bootstrap's container and container-fluid"
+msgstr "Valitse Bootstrapin container tai container-fluid"
+
+#: inc/customizer.php:90
+msgid "Fixed width container"
+msgstr "Rajattu sisällön leveys"
+
+#: inc/customizer.php:91
+msgid "Full width container"
+msgstr "Leveys reunasta reunaan"
+
+#: inc/customizer.php:113
+msgid "Sidebar Positioning"
+msgstr "Sivupalkin kohde"
+
+#: inc/customizer.php:115
+msgid ""
+"Set sidebar's default position. Can either be: right, left, both or none. "
+"Note: this can be overridden on individual pages."
+msgstr ""
+"Aseta sivupalkin oletusasento. Voi olla joko oikea, vasen, molemmat tai ei "
+"mitään. Huomaa: tämä voidaan ohittaa yksittäisillä sivuilla. "
+
+#: inc/customizer.php:123
+msgid "Right sidebar"
+msgstr "Oikea sivupalkki"
+
+#: inc/customizer.php:124
+msgid "Left sidebar"
+msgstr "Vasen sivupalkki"
+
+#: inc/customizer.php:125
+msgid "Left & Right sidebars"
+msgstr "Vasen & Oikea sivupalkki"
+
+#: inc/customizer.php:126
+msgid "No sidebar"
+msgstr "Ei sivupalkkia"
+
+#: inc/hooks.php:30
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#: inc/hooks.php:33
+#, php-format
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: inc/hooks.php:38
+#, php-format
+msgid "Theme: %1$s by %2$s."
+msgstr ""
+
+#: inc/hooks.php:40
+msgid "http://understrap.com"
+msgstr "http://understrap.com"
+
+#: inc/hooks.php:44
+#, php-format
+msgid "Version: %1$s"
+msgstr ""
+
+#: inc/pagination.php:53
+msgid "&laquo;"
+msgstr "&laquo;"
+
+#: inc/pagination.php:54
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: inc/pagination.php:57
+msgid "Posts navigation"
+msgstr "Sivujen navigointi"
+
+#: inc/post-types/carousel.php:16
+msgid "Carousels"
+msgstr "Karusellit"
+
+#: inc/post-types/carousel.php:17 inc/post-types/carousel.php:43
+msgid "Carousel"
+msgstr "Karuselli"
+
+#: inc/post-types/carousel.php:18
+msgid "Item Archives"
+msgstr "Kohteen arkistot"
+
+#: inc/post-types/carousel.php:19
+msgid "Item Attributes"
+msgstr "Kohteen attribuutit"
+
+#: inc/post-types/carousel.php:20
+msgid "Parent Item:"
+msgstr "Pääkohde"
+
+#: inc/post-types/carousel.php:21
+msgid "All Items"
+msgstr "Kaikki kohteet"
+
+#: inc/post-types/carousel.php:22
+msgid "Add New Item"
+msgstr "Lisää uusi"
+
+#: inc/post-types/carousel.php:23
+msgid "Add New"
+msgstr "Lisää uusi"
+
+#: inc/post-types/carousel.php:24
+msgid "New Item"
+msgstr "Uusi"
+
+#: inc/post-types/carousel.php:25
+msgid "Edit Item"
+msgstr "Muokkaa"
+
+#: inc/post-types/carousel.php:26
+msgid "Update Item"
+msgstr "Päivitä"
+
+#: inc/post-types/carousel.php:27
+msgid "View Item"
+msgstr "Katso"
+
+#: inc/post-types/carousel.php:28
+msgid "View Items"
+msgstr "Katso"
+
+#: inc/post-types/carousel.php:29
+msgid "Search Item"
+msgstr "Etsi"
+
+#: inc/post-types/carousel.php:30
+msgid "Not found"
+msgstr "Ei löytynyt"
+
+#: inc/post-types/carousel.php:31
+msgid "Not found in Trash"
+msgstr "Ei löytynyt roskakorista"
+
+#: inc/post-types/carousel.php:32
+msgid "Featured Image"
+msgstr "Nostokuva"
+
+#: inc/post-types/carousel.php:33
+msgid "Set featured image"
+msgstr "Aseta nostokuva"
+
+#: inc/post-types/carousel.php:34
+msgid "Remove featured image"
+msgstr "Poista"
+
+#: inc/post-types/carousel.php:35
+msgid "Use as featured image"
+msgstr "Käytä"
+
+#: inc/post-types/carousel.php:36
+msgid "Insert into item"
+msgstr "Aseta"
+
+#: inc/post-types/carousel.php:37
+msgid "Uploaded to this item"
+msgstr "Ladattu tähän"
+
+#: inc/post-types/carousel.php:38
+msgid "Items list"
+msgstr "Lista"
+
+#: inc/post-types/carousel.php:39
+msgid "Items list navigation"
+msgstr "Lista navigointi"
+
+#: inc/post-types/carousel.php:40
+msgid "Filter items list"
+msgstr "Suodata"
+
+#: inc/post-types/carousel.php:44
+msgid "A slideshow component for cycling through images — like a carousel."
+msgstr "Kuvaesitys kuvien selaamiseen - kuin karuselli."
+
+#: inc/setup.php:49
+msgid "Primary Menu"
+msgstr "Päävalikko"
+
+#: inc/template-tags.php:60 inc/template-tags.php:66
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:63
+#, php-format
+msgid "Posted in %s"
+msgstr "Kategoriat %s"
+
+#: inc/template-tags.php:69
+#, php-format
+msgid "Tagged %s"
+msgstr "Tagit %s"
+
+#: inc/template-tags.php:74
+msgid "Leave a comment"
+msgstr "Jätä kommentti"
+
+#: inc/template-tags.php:74
+msgid "1 Comment"
+msgstr "1 kommentti"
+
+#: inc/template-tags.php:74
+msgid "% Comments"
+msgstr "% kommenttia"
+
+#: inc/template-tags.php:80
+#, fuzzy, php-format
+#| msgid "Edit Item"
+msgid "Edit %s"
+msgstr "Muokkaa"
+
+#: inc/widgets.php:103
+msgid "Right Sidebar"
+msgstr "Oikea sivupalkki"
+
+#: inc/widgets.php:105
+msgid "Right sidebar widget area"
+msgstr "Oikean sivupalkin vimpain alue"
+
+#: inc/widgets.php:115
+msgid "Left Sidebar"
+msgstr "Vasen sivupalkki"
+
+#: inc/widgets.php:117
+msgid "Left sidebar widget area"
+msgstr "Vasemman sivupalkin vimpain alue"
+
+#: inc/widgets.php:127
+msgid "Footer Full"
+msgstr "Footer"
+
+#: inc/widgets.php:129
+msgid "Full sized footer widget with dynamic grid"
+msgstr "Footer"
+
+#: inc/woocommerce.php:313
+msgid "Woocommerce Sidebar"
+msgstr "Woocommerce sivupalkki"
+
+#: inc/woocommerce.php:315
+msgid "Woocommerce right sidebar widget area"
+msgstr "Woocommerce sivupalkin vimpain alue"
+
+#: loop-templates/content-none.php:30
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"Valmiina julkaisemaan ensimmäisen sivusi? <a href=\"%1$s\">Aloita tästä</a>."
+
+#: loop-templates/content-none.php:38
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Valitettavasti mikään ei vastannut hakutermejäsi. Yritä uudelleen eräillä "
+"avainsanoilla. "
+
+#: loop-templates/content-none.php:46
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Näyttää siltä, että emme löydä sitä, mitä etsit. Ehkä etsiminen voi auttaa."
+
+#: loop-templates/content-single.php:46 loop-templates/content.php:42
+msgid "Pages:"
+msgstr "Sivut:"
+
+#: search.php:36
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Hakutulokset: %s"

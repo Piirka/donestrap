@@ -1,0 +1,117 @@
+/*! purgecss start ignore */
+.woocommerce .woocommerce-ordering select {
+    @extend .form-select;
+}
+.woocommerce #respond input#submit, 
+.woocommerce a.button, 
+.woocommerce button.button, 
+.woocommerce input.button,
+.woocommerce .cart .button,
+.woocommerce .cart input.button {
+    @extend .btn; 
+}
+.woocommerce .cart .button,
+.woocommerce .cart input.button {
+    @extend .btn-secondary; 
+}
+.woocommerce a.product_type_grouped,
+.woocommerce a.product_type_variable {
+    @extend .btn-secondary;
+    @extend .w-100;
+}
+.woocommerce button[name="save_account_details"]
+.woocommerce button[name="save_address"],
+.woocommerce button.button.alt, .woocommerce input.button.alt,
+.woocommerce .woocommerce-form-login .woocommerce-form-login__submit {
+    @extend .btn-primary;
+}
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt,
+.woocommerce a.add_to_cart_button {
+    @extend .btn-primary;
+    @extend .w-100;
+}
+#add_payment_method .wc-proceed-to-checkout a.checkout-button, .woocommerce-cart .wc-proceed-to-checkout a.checkout-button, .woocommerce-checkout .wc-proceed-to-checkout a.checkout-button {
+    @extend .btn-primary;
+    @extend .btn-lg;
+}
+.woocommerce form .form-row input.input-text,
+#add_payment_method table.cart td.actions .coupon .input-text, 
+.woocommerce-cart table.cart td.actions .coupon .input-text, 
+.woocommerce-checkout table.cart td.actions .coupon .input-text {
+    @extend .form-control;
+}
+.woocommerce #respond input#submit.disabled, .woocommerce #respond input#submit:disabled, .woocommerce #respond input#submit:disabled[disabled], .woocommerce a.button.disabled, .woocommerce a.button:disabled, .woocommerce a.button:disabled[disabled], .woocommerce button.button.disabled, .woocommerce button.button:disabled, .woocommerce button.button:disabled[disabled], .woocommerce input.button.disabled, .woocommerce input.button:disabled, .woocommerce input.button:disabled[disabled] {
+    padding: $input-btn-padding-y $input-btn-padding-x;
+}
+.woocommerce .woocommerce-form-login .woocommerce-form-login__rememberme {
+    display: block;
+    margin-bottom: 1rem;
+}
+.woocommerce .coupon input[name="coupon_code"] {
+    @extend .w-100;
+    max-width: 186px !important;
+}
+
+.woocommerce-message {
+    border-top-color: $green;
+}
+.woocommerce-info {
+    border-top-color: $blue;
+}
+.woocommerce ul.products li.product .price,
+.woocommerce div.product p.price, 
+.woocommerce div.product span.price,
+.woocommerce-message::before {
+	color: $green;
+}
+.woocommerce span.onsale {
+	background-color: $yellow;
+}
+
+.woocommerce a.btn.loading .spinner-border {
+    display: inline-block !important;
+}
+.woocommerce a.btn.added svg {
+    display: inline-block !important;
+}
+
+.woocommerce a.added_to_cart {
+    display: none;
+}
+.woocommerce ul.products li.product .onsale {
+    margin: 0;
+    border-radius: 0;
+    border-bottom-left-radius: 50%;
+}
+.woocommerce-account .woocommerce-MyAccount-navigation ul {
+    @extend .list-group, .list-group-flush;
+}
+.woocommerce-account .woocommerce-MyAccount-navigation ul li {
+    @extend .list-group-item;
+}
+.woocommerce table.my_account_orders .button {
+    @extend .btn-secondary;
+    @extend .btn-sm;
+}
+.woocommerce-cart table.cart th.product-remove,
+.woocommerce-cart table.cart th.product-thumbnail,
+.woocommerce-cart table.cart th.product-subtotal,
+.woocommerce-cart table.cart th.product-quantity,
+.woocommerce-cart table.cart th.product-price {
+    width: 5%;
+}
+.woocommerce-cart table.cart th.product-subtotal,
+.woocommerce-cart table.cart th.product-quantity,
+.woocommerce-cart table.cart th.product-price,
+.woocommerce-cart table.cart td.product-subtotal,
+.woocommerce-cart table.cart td.product-quantity,
+.woocommerce-cart table.cart td.product-price {
+    text-align: right;
+}
+
+@media(min-width: 768px) {
+	#coupon_code.input-text {
+		width: 186px !important;
+	}
+}
+/*! purgecss end ignore */

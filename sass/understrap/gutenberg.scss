@@ -1,0 +1,38 @@
+/* Main column width */
+.wp-block {
+    max-width: map-get($container-max-widths, xxl);
+}
+.wp-block.container-fluid {
+    max-width: 100%;
+} 
+/* Width of "wide" blocks */
+.wp-block[data-align='wide'] {
+    max-width: auto;
+}
+ 
+/* Width of "full-wide" blocks */
+.wp-block[data-align='full'] {
+    max-width: auto;
+}
+
+.wp-block-image img {
+    @extend .img-fluid;
+}
+
+@each $key, $value in $colors {
+    .has-#{$key}-background-color {
+        background-color: $value;
+    }
+    .has-#{$key}-color {
+        color: $value;
+    }
+}
+
+@each $key, $value in $grays {
+    .has-gray-#{$key}-background-color {
+        background-color: $value;
+    }
+    .has-gray-#{$key}-color {
+        color: $value;
+    }
+}

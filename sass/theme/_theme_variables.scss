@@ -1,0 +1,35 @@
+// Use this file to overwrite the basic Bootstrap variables and add your own variables
+// To overwrite a Bootstrap variable you don´t have to touch the Bootstrap folder.
+// Just copy a variable from src/sass/bootstrap/_variables.scss, paste it here and edit the value.
+
+// All colors which are decleaned between "Gutenberg colors" are shown in color palette. 
+// Declear color out side of it if you don´t want them in color palette but in theme instead.
+// Gutenberg colors
+$white:    #fff !default;
+$gray-100: #F3F4F6 !default;
+$gray-200: #E5E7EB !default;
+$gray-300: #D1D5DB !default;
+$gray-400: #9CA3AF !default;
+$gray-500: #6B7280 !default;
+$gray-600: #4B5563 !default;
+$gray-700: #374151 !default;
+$gray-800: #1F2937 !default;
+$gray-900: #111827 !default;
+$black:    #000 !default;
+$blue:    #1E3A8A !default;
+$indigo:  #312E81 !default;
+$purple:  #4C1D95 !default;
+$pink:    #831843 !default;
+$red:     #7F1D1D !default;
+$orange:  #fd7e14 !default;
+$yellow:  #FBBF24 !default;
+$green:   #064E3B !default;
+$teal:    #20c997 !default;
+$cyan:    #0dcaf0 !default;
+// Gutenberg colors
+
+// Gutenberg font-sizes
+$font-size-base:              1rem !default; // Assumes the browser default, typically `16px`
+$font-size-sm:                $font-size-base * .875 !default;
+$font-size-lg:                $font-size-base * 1.25 !default;
+// Gutenberg font-sizes
