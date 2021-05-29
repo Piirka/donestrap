@@ -60,7 +60,7 @@ foreach ( $understrap_cpt_includes as $cpt ) {
  * 
  * @param Object $scripts 
  */ 
-function remove_jquery_migrate( $scripts ) {
+function understrap_remove_jquery_migrate( $scripts ) {
 	if ( ! is_admin() && isset( $scripts->registered['jquery'] ) ) {
 		$script = $scripts->registered['jquery'];
 		
@@ -74,22 +74,22 @@ function remove_jquery_migrate( $scripts ) {
 		}
 	}
 }
-add_action( 'wp_default_scripts', 'remove_jquery_migrate' );
+add_action( 'wp_default_scripts', 'understrap_remove_jquery_migrate' );
 
 /**
  * Lets move jQeury from head to footer.
  */ 
-function mytheme_move_jquery_to_footer() {
+function understrap_move_jquery_to_footer() {
 	wp_scripts()->add_data( 'jquery', 'group', 1 );
 	wp_scripts()->add_data( 'jquery-core', 'group', 1 );
 	wp_scripts()->add_data( 'jquery-migrate', 'group', 1 );
 }
-add_action( 'wp_enqueue_scripts', 'mytheme_move_jquery_to_footer' );
+add_action( 'wp_enqueue_scripts', 'understrap_move_jquery_to_footer' );
 
 /**
  * Removes block editor css from frontend. Instead this will be added in webpack.mix.js to theme bundle.
  */ 
-function smartwp_remove_wp_block_library_css() {
+function understrap_remove_wp_block_library_css() {
 	wp_dequeue_style( 'wp-block-library' );
 } 
-add_action( 'wp_enqueue_scripts', 'smartwp_remove_wp_block_library_css', 100 );
+add_action( 'wp_enqueue_scripts', 'understrap_remove_wp_block_library_css', 100 );

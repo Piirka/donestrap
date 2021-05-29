@@ -9,6 +9,7 @@ add_action( 'after_setup_theme', 'understrap_setup_theme_supported_features' );
 function understrap_setup_theme_supported_features() {
     
     // Parses colors from sass file and make them available in Gutenberg. 
+    // TODO: Make this more readable. Not pretty but works. 
     $colors = trim(file_get_contents(get_template_directory_uri().'/sass/theme/_theme_variables.scss'));
     $display = explode('// Gutenberg colors', $colors);
     $display = str_replace(' !default;','",', $display );
@@ -34,10 +35,10 @@ function understrap_setup_theme_supported_features() {
 
 
 /**
- * This adds theme.css styles to gutenberd editor.
+ * This adds theme.css styles to gutenberg editor.
  */ 
-function misha_gutenberg_css() {
+function understrap_gutenberg_css() {
 	add_theme_support( 'editor-styles' ); // if you don't add this line, your stylesheet won't be added.
 	add_editor_style( 'css/theme.min.css' ); // tries to include style-editor.css directly from your theme folder.
 }
-add_action( 'after_setup_theme', 'misha_gutenberg_css' );
+add_action( 'after_setup_theme', 'understrap_gutenberg_css' );

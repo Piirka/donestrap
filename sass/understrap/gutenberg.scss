@@ -19,6 +19,7 @@
     @extend .img-fluid;
 }
 
+/* Color classes for Gutenberg. */
 @each $key, $value in $colors {
     .has-#{$key}-background-color {
         background-color: $value;
