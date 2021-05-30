@@ -21,12 +21,15 @@
 }
 .woocommerce button[name="save_account_details"]
 .woocommerce button[name="save_address"],
-.woocommerce button.button.alt, .woocommerce input.button.alt,
+.woocommerce button.button.alt, 
+.woocommerce input.button.alt,
 .woocommerce .woocommerce-form-login .woocommerce-form-login__submit {
     @extend .btn-primary;
 }
-.woocommerce #respond input#submit.alt, .woocommerce a.button.alt,
-.woocommerce a.add_to_cart_button {
+.woocommerce #respond input#submit.alt, 
+.woocommerce a.button.alt,
+.woocommerce a.add_to_cart_button,
+.woocommerce ul.products li.product .button {
     @extend .btn-primary;
     @extend .w-100;
 }
