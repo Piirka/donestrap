@@ -113,6 +113,13 @@ if ( ! function_exists( 'understrap_setup' ) ) {
 		// Check and setup theme default settings.
 		understrap_setup_theme_default_settings();
 
+		/*
+		* Adds `async` and `defer` support for scripts registered or enqueued
+		* by the theme.
+		*/
+		$loader = new Understrap_Script_Loader();
+		add_filter( 'script_loader_tag', array( $loader, 'filter_script_loader_tag' ), 10, 2 );
+
 	}
 }
 

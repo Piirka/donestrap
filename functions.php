@@ -28,6 +28,7 @@ $understrap_includes = array(
 	'/deprecated.php',                      // Load deprecated functions.
 	'/gutenberg.php',                      	// Load Gutenberg functions.
 	'/gutenberg-blocks.php',               	// Predefined Gutenberg block.
+	'/class-understrap-script-loader.php',  // Custom script loader class.
 );
 
 // Load WooCommerce functions if WooCommerce is activated.
