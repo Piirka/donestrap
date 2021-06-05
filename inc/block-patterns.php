@@ -31,7 +31,7 @@ if (function_exists('register_block_pattern')) {
     register_block_pattern(
         'understrap/jumbotron',
         array(
-            'title'       => __('Jumbotron 2', 'understrap'),
+            'title'       => __('Jumbotron', 'understrap'),
             'categories'  => array('Understrap'),
             'keywords'    => array(__('Understrap', 'understrap'), __('Jumbotron', 'understrap')),
             'description' => __('A contact form with a flower background image and a heading above it.', 'understrap'),
