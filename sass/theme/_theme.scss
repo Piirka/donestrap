@@ -1,23 +1,45 @@
 // This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
 
-.editor-styles-wrapper .wp-block-button__link, 
+.editor-styles-wrapper .wp-block-button__link,
 .wp-block-button__link {
-    @extend .btn; 
-    @extend .w-100;
+	@extend .btn;
+	@extend .w-100;
 }
 
 .navbar-toggler .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-pause' viewBox='0 0 16 16'%3E%3Cpath d='M6 3.5a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-1 0V4a.5.5 0 0 1 .5-.5zm4 0a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-1 0V4a.5.5 0 0 1 .5-.5z'/%3E%3C/svg%3E");
-    transform: rotate(90deg);
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-pause' viewBox='0 0 16 16'%3E%3Cpath d='M6 3.5a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-1 0V4a.5.5 0 0 1 .5-.5zm4 0a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-1 0V4a.5.5 0 0 1 .5-.5z'/%3E%3C/svg%3E");
+	transform: rotate(90deg);
 }
 
 .navbar-toggler:not(.collapsed) .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-x' viewBox='0 0 16 16'%3E%3Cpath d='M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z'/%3E%3C/svg%3E");
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-x' viewBox='0 0 16 16'%3E%3Cpath d='M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z'/%3E%3C/svg%3E");
 }
 
 @include media-breakpoint-down(sm) {
-    .container {
-        padding-left: 1rem;
-        padding-right: 1rem;
+	.container {
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+}
+
+// Megamenu, change breakpoint depending the main menu
+/*! purgecss start ignore */
+@include media-breakpoint-up(lg) {
+	.megamenu {
+		position: static;
+	}
+	.megamenu.show > .dropdown-menu {
+		position: absolute;
+		display: flex !important;
+		flex-wrap: wrap !important;
+		width: 100% !important;
+		max-width: 100% !important;
+	}
+    .megamenu.show > ul.dropdown-menu > li > ul.dropdown-menu {
+		display: contents !important;
+	}
+    .megamenu .sub-arrow {
+        display: none;
     }
-  }
+}
+/*! purgecss end ignore */

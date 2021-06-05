@@ -63,9 +63,10 @@ $container = get_theme_mod( 'understrap_container_type' );
 							'theme_location'  => 'primary',
 							'container_class' => 'collapse navbar-collapse',
 							'container_id'    => 'navbarNavDropdown',
-							'menu_class'      => 'navbar-nav me-auto mb-2 mb-lg-0',
+							'menu_class'      => 'navbar-nav me-auto mb-2 mb-lg-0 position-relative',
 							'fallback_cb'     => '',
 							'menu_id'         => 'main-menu',
+							'items_wrap'      => '<ul id="%1$s" class="%2$s" data-sm-options="{ keepHighlighted: false }">%3$s</ul>',
 							'depth'           => 3,
 							'walker'          => new Understrap_WP_Bootstrap_Navwalker(),
 						)

@@ -15,7 +15,7 @@ mix.sass('sass/theme.scss', 'css/theme.min.css')
             /^btn$/,
         ]
     });
-
+/*
 mix.js([
     'node_modules/popper.js/dist/popper.min.js',
     // Bootstrap files, only import the JavaScript you need. 
@@ -36,3 +36,4 @@ mix.js([
     'src/js/skip-link-focus-fix.js',
     'src/js/custom-javascript.js'
     ], 'js/theme.min.js').sourceMaps();
+*/
